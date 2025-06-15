@@ -1,8 +1,14 @@
+import Chai  from "./Chai";
 
 function App() {
  
   return (
-    <h1>react-girish  | GIRISH GURJAR</h1>
+ <>
+  <Chai/>
+  <h1>react learnibg from chai or code</h1>
+  <p>okokok</p>
+ 
+ </>
   )
 }
 
