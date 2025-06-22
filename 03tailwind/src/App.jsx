@@ -6,15 +6,17 @@ import Card from './components/Card'
 
 function App() {
   const [count, setCount] = useState(0)
-
+let myObject = {
+  name: "John",
+  age: 30,
+  city: "New York"
+}
+let newArray = [1, 2, 3, 4, 5];
   return (
     <>
-     <h1 class="text-3xl font-bold underline">Tailwind css</h1>
-     <Card
-       title="Card Title"
-       description="This is a description of the card."
-       imageUrl="https://via.placeholder.com/150"
-     />
+     <h1 className="text-3xl font-bold underline">Tailwind css</h1>
+     <Card username="Girish" btnText="click me" />
+     <Card username="Gurjar" btnText="read me" />
     </>
   )
 }
